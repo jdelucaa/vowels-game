@@ -1,0 +1,25 @@
+ol {
+    list-style-type: none;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+}
+
+.letra {
+    width: 80px;
+    height: 80px;
+}
+
+#targetDiv {
+    height: 300px;
+    margin: 10px 10px 10px 10px;
+    background: cornflowerblue;
+}
+
+.invisible {
+    visibility: hidden;
+    width: 80px;
+    height: 80px;
+}
