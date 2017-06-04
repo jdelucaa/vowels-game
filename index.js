@@ -2,16 +2,15 @@
  * Created by joana on 04/06/2017.
  */
 
-load_letters("NOOB");
-
-function load_letters(word) {
+function load_letters() {
     var img_out = "";
     var letters = $("#images");
+    var word = $("#word").val();
 
     var wordLength = word.length;
 
     for (var i = 0; i < wordLength; i++) {
-        var letter = word[i];
+        var letter = word[i].toUpperCase();
 
         if (letter === "A" || letter === "E" || letter === "I" || letter === "O" || letter === "U") {
             img_out += "<img src='./res/" + letter + ".png' class='letra " + letter + " correct'/>";

@@ -10,13 +10,20 @@
 <link href="index.css" rel="stylesheet">
 <body>
 
-<div class="col-md-12">
-    <div id="targetDiv"><h3>Drop vowels in this blue box</h3></div>
-</div>
+<div class="container">
 
-<ol>
-    <li id="images"></li>
-</ol>
+    <div class="form-group">
+        <input type="text" maxlength="20" id="word" class="form-control" placeholder="type a word">
+        <button onclick="load_letters()" type="button" class="btn btn-primary">Start Game</button>
+    </div>
+
+        <div id="targetDiv"><h3>Drop vowels in this blue box</h3></div>
+
+        <ol>
+            <li id="images"></li>
+        </ol>
+
+</div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

@@ -7,19 +7,26 @@ h3 {
     text-align: center;
 }
 
+input {
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
 .letra {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
 
 #targetDiv {
     height: 300px;
-    margin: 10px 10px 10px 10px;
     background: cornflowerblue;
 }
 
 .invisible {
     visibility: hidden;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
 }
